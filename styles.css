@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #6C757D;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3 {
+    color: #007BFF;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.hero-banner {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #F0F8FF;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Projects Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #DDD;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Skills */
+.skills-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills-grid div {
+    padding: 10px 20px;
+    background-color: #F0F8FF;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+}
+
